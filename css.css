@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:unset;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.container .coin_price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc;
+    margin: 30px;
+}
+.container .coin_price .logo{
+    width: 70px;
+    margin-right: 10px;
+}
+.container .coin_price .logo img{
+    width: 100%;
+}
+.container .coin_price div h1{
+    font-size: 20px;
+}
+
